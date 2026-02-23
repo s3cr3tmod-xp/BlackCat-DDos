@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import os
-import fade
 import random
 import socket
 import string
@@ -10,7 +9,8 @@ import time
 
 attemps = 0
 os.system("clear")
-logo = """         
+print("""  
+\033[37m
  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
  ▒▒▒███████╗▒▒██╗▒▒▒▒▒▒████╗▒▒▒▒██████╗▒██╗▒▒▒███╗▒▒██████╗▒▒████╗▒████████╗▒▒▒
  ▒▒▒██╔═══██╗▒██║▒▒▒▒▒██╔═██╚╗▒██╔════╝▒██║▒▒██╔═╝▒██╔════╝▒██╔═██╚╗▒▒██╔══╝▒▒▒
@@ -25,14 +25,13 @@ logo = """
 \033[38;5;5m ║\033[48;5;7m \033[30mWarning...!! Script ini diperuntukan buat grup Black Army.          \033[48;5;7m       \033[0m\033[38;5;5m║
 \033[38;5;5m ║\033[48;5;7m \033[30mBoleh di gunakan di grup lain tapi tidak diperkenankan utk dishare  \033[48;5;7m       \033[0m\033[38;5;5m║
 \033[38;5;5m ╚════════════════════════════════════════════════════════════════════════════╝
-"""
-faded_text = fade.fire(logo)
-print(faded_text)
+""")
+
 while attemps < 100:
     username = input("\033[32m┏> Enter your username:\033[30m")
     password = input("\033[32m┗> Enter your password:\033[30m")
 
-    if username == 'capeya dipaskey muluk' and password == 'capeya dipaskey muluk':
+    if username == 'yyy' and password == 'yyy':
         print("\033[48;5;3m•••⟩⟩ Zona attack sikucing hitam...!!\033[0m")
         break
     else:
